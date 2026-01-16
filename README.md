@@ -57,30 +57,6 @@ When you change your WiFi password, all devices that were previously connected t
 
 ## How could we optimize the docs to help a RAG-based chatbot get the answer correct?
 
-### Common RAG Optimization Approaches
-
-1. **Decomposition (Breaking down large docs)**
-   - Take existing long documents
-   - Break them into smaller, topic-focused chunks
-   - Each chunk addresses one specific question/topic
-
-2. **Recomposition (Combining scattered info)**
-   - Take information scattered across multiple docs
-   - Combine related pieces into complete, standalone units
-   - Fill gaps where information is missing
-
-3. **Metadata enrichment**
-   - Add structured metadata to chunks (keywords, topics, question types)
-   - Helps retrieval systems find relevant content
-
-4. **Q&A pair creation**
-   - Convert documentation into explicit question-answer pairs
-   - Each pair is a retrievable unit
-
-5. **Hierarchical structuring**
-   - Organize content in parent-child relationships
-   - Use summaries at top level, details nested below
-
 RAG improves chatbots and search by using context in the form of vectors. However, to create effective vectors, the source text first needs to be organized into the correct chunks or units that can answer the questions at hand.
 
 When breaking down content like this, you need to break it down into units which stand alone.
@@ -174,3 +150,29 @@ This helps:
 - search
 - organization
 - later ingestion into RAG pipelines
+
+Beyond this example, documentation can be restructured in several common ways to improve retrieval in RAG-based systems.
+
+### Common RAG Optimization Approaches
+
+1. **Decomposition (Breaking down large docs)**
+   - Take existing long documents
+   - Break them into smaller, topic-focused chunks
+   - Each chunk addresses one specific question/topic
+
+2. **Recomposition (Combining scattered info)**
+   - Take information scattered across multiple docs
+   - Combine related pieces into complete, standalone units
+   - Fill gaps where information is missing
+
+3. **Metadata enrichment**
+   - Add structured metadata to chunks (keywords, topics, question types)
+   - Helps retrieval systems find relevant content
+
+4. **Q&A pair creation**
+   - Convert documentation into explicit question-answer pairs
+   - Each pair is a retrievable unit
+
+5. **Hierarchical structuring**
+   - Organize content in parent-child relationships
+   - Use summaries at top level, details nested below
