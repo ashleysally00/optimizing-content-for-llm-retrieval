@@ -67,13 +67,13 @@ A better way here would be to look at it from a context standpoint and recombine
 
 ### Here's how to restructure the existing fragments
 
-**Step 1. Instead of three separate fragments in three different articles:**
+**Instead of three separate fragments in three different articles:**
 
 - Fragment about checking if password changed (in troubleshooting)
 - Fragment about how to change password (in settings)
 - Fragment about connecting to network (in optimization)
 
-**Step 2. Create a contextual unit about "WiFi Password Changes and Device Connectivity":**
+**Create a contextual unit about "WiFi Password Changes and Device Connectivity."**
 
 #### Recombined Contextual Unit: "WiFi Password Changes and Device Connectivity"
 
