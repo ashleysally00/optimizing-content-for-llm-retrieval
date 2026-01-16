@@ -55,7 +55,7 @@ From the "Managing and optimizing your WiFi network" article, under "Confirm you
 
 When you change your WiFi password, all devices that were previously connected to your network are still trying to use the old password. They can't connect with the old credentials, so they appear to have no internet connection. You need to manually update the WiFi password on each device to reconnect them to your network.
 
-## How Could we Optimize the Docs to help a RAG-based chatbot get the answer correct?
+## How could we optimize the docs to help a RAG-based chatbot get the answer correct?
 
 ### Common RAG Optimization Approaches
 
